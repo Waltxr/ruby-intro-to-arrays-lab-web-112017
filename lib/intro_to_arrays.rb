@@ -5,6 +5,7 @@ end
 
 def array_with_two_elements
   arr = Arr.new(2, true)
+  return arr
 end
 
 def first_element(arr)
@@ -24,7 +25,7 @@ def first_element_with_array_methods(arr)
 end
 
 def last_element_with_array_methods(arr)
-  return arr.push
+  return arr.pop
 end
 
 def length_of_array(arr)
