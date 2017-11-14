@@ -17,5 +17,5 @@ end
 
 
 def last_element
-
+  return arr[arr.length - 1]
 end
