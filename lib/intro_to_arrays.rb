@@ -23,6 +23,10 @@ def first_element_with_array_methods(arr)
   return arr.unshift
 end
 
-def last_element_with_array_methods
+def last_element_with_array_methods(arr)
   return arr.pop
+end
+
+def length_of_array(arr)
+  return arr.length
 end
