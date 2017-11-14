@@ -12,7 +12,7 @@ def first_element(arr)
 end
 
 def third_element(arr)
-  arr[2]
+  return arr[2]
 end
 
 
