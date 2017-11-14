@@ -4,7 +4,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements
-  arr = Arrary.new(2, true)
+  arr = Array.new(2, true)
   return arr
 end
 
