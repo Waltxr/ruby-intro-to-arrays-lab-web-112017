@@ -7,8 +7,8 @@ def array_with_two_elements
   arr = Arr.new(2, true)
 end
 
-def first_element
-
+def first_element(arr)
+  return arr.first
 end
 
 def third_element
