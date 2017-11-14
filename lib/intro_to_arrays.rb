@@ -19,6 +19,6 @@ def last_element
   return arr[arr.length - 1]
 end
 
-def first_element_with_array_methods
-
+def first_element_with_array_methods(arr)
+  returnarr.unshift
 end
